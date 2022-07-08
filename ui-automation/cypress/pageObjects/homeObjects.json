@@ -1,0 +1,16 @@
+{
+    "filterTxt": "[id=searchbox]",
+    "filterByNameBtn":"[id=searchsubmit]",
+    "addANewComputerBtn": "[id=add]",
+    "resultTable": {
+        "tableXpath": "//table",
+        "computerNameCol": "//table/tbody/tr/td[1]",
+        "introducedCol": "//table/tbody/tr/td[2]",
+        "discontinuedCol": "//table/tbody/tr/td[3]",
+        "companyCol": "//table/tbody/tr/td[4]"
+    },
+    "message": {
+        "notFoundComputerMsgXpath": "//*[text()='Nothing to display']",
+        "addComputerSuccessMsgXpath": "//*[contains(text(), 'Done!')]"
+    }
+}

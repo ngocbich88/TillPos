@@ -1,0 +1,8 @@
+{
+  "computerNameTxt": "[id=name]",
+  "introducedDateTxt": "[id=introduced]",
+  "discontinuedDateTxt": "[id=discontinued]",
+  "companyList": "[id=company]",
+  "createThisComputerBtn": "[type=submit]",
+  "cancelBtnXpath": "//a[text()='Cancel']"
+}

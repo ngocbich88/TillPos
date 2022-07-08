@@ -1,0 +1,22 @@
+{
+  "name": "ui_automation",
+  "version": "1.0.0",
+  "description": "ui automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "testSpecific": "npx cypress run --spec cypress/tests/*.js"
+  },
+  "author": "Ngoc",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "cypress-xpath": "1.6.2",
+    "mochawesome": "6.2.2",
+    "cypress-file-upload": "5.0.8"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "mocha": "^9.1.3"
+  }
+}

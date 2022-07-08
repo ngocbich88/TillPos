@@ -1,0 +1,19 @@
+image: cypress/base:16.0.0
+
+pipelines:
+  default:
+    - step:
+            name: Install Dependencies
+            caches:
+              - node
+            script:
+              - npm install
+    - parallel:
+        - step:
+            name: Test Orders
+            script:
+              - npx cypress run --spec cypress/tests/PH01-Create-Order.js 
+        - step:
+            name: Test Catalog
+            script:
+              - npx cypress run --spec cypress/tests/PH01-Create-Order.js

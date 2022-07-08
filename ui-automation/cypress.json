@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://computer-database.herokuapp.com",
+  "env": {
+    "role": "admin"
+  },
+  "downloadsFolder": "cypress/downloads",
+  "defaultCommandTimeout": 10000,
+  "chromeWebSecurity": false,
+  "integrationFolder": "cypress/tests",
+  "video":false,  
+  "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+      "reportDir": "cypress/report",
+      "charts": true,
+      "reportPageTitle": "Computer-Report"
+    }
+}
